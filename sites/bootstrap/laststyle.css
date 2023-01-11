@@ -1,0 +1,35 @@
+
+img{
+    object-fit:cover;
+}
+
+section:not(#produtos){
+    height:80vh;    
+}
+#produtos{
+    height:max-content!important;
+}
+#inicio #carouselExampleCaptions img, .carousel-item{
+    height:80vh;
+}
+.card img{
+    height:150px;
+}
+.card{
+    width:80%;
+
+}
+#produtos .col{
+    text-align:center;
+    display:flex;
+    justify-content:center;
+}
+
+#produtos .carousel-control-prev {
+    margin-left: -10%;
+  }
+  
+#produtos .carousel-control-next {
+    margin-right: -10%;
+  }
+  
